@@ -19,7 +19,6 @@ def parse_args():
     parser.add_argument('-img_w', '--image_w', type=int, default=256, help='desired images width')
     parser.add_argument('-img_h', '--image_h', type=int, default=256, help='desired images height')
     args: argparse.Namespace = parser.parse_args()
-    print((args.x_device_id, args.image_w, args.image_h))
     return args.x_device_id, args.image_w, args.image_h
 
 
