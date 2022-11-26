@@ -1,0 +1,8 @@
+downloaded_imgs/*
+errors/*
+generated_datasets/*
+logs/*
+retrieved_layouts/*
+retrieved_menus/*
+venv/
+.idea/
