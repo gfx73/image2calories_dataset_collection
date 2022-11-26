@@ -1,17 +1,14 @@
 downloaded_imgs/*
-errors/*
 generated_datasets/*
-logs/*
 resized_imgs/*
 retrieved_layouts/*
 retrieved_menus/*
-!downloaded_imgs/.gitkeep
-!errors/.gitkeep
-!generated_datasets/.gitkeep
-!logs/.gitkeep
-!resized_imgs/.gitkeep
-!retrieved_layouts/.gitkeep
-!retrieved_menus/.gitkeep
+
+!downloaded_imgs/_images_1368744_0a5caeac1efe2dd215bd7d628c19ed41-{}x{}.jpeg
+!generated_datasets/dataset_with_paths.csv
+!resized_imgs/_images_1368744_0a5caeac1efe2dd215bd7d628c19ed41-{}x{}.jpeg
+!retrieved_layouts/0.json
+!retrieved_menus/0.json
 
 __pycache__/
 src/__pycache__/
