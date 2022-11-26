@@ -8,6 +8,7 @@ def filter_foods():
     df = df.dropna(subset=['picture_uri', 'weight_value', 'calories_value'])
 
     df = df.drop_duplicates(subset='public_id', ignore_index=True)
+    df = df.drop_duplicates(subset='picture_uri', ignore_index=True)
 
     df['category_name'] = df['category_name'].str.lower()
     df = df[~df['category_name'].str.contains(r'напитки|чай|кофе|коктейли|смузи|соусы')]
