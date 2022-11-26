@@ -4,7 +4,6 @@ from constants import CITIES_IN_COUNTRIES_DIR, ALL_CITIES_PATH
 
 
 def get_all_cities():
-
     dataframes = []
     for df_filename in os.listdir(CITIES_IN_COUNTRIES_DIR):
         dataframes.append(pd.read_csv(CITIES_IN_COUNTRIES_DIR / df_filename))
