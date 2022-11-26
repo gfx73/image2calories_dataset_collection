@@ -11,7 +11,7 @@ def get_dataset_with_paths():
     downloaded_imgs_uris = [img_filename2uri(uri) for uri in os.listdir(RESIZED_IMGS_DIR)]
     filtered_foods_df = filtered_foods_df[filtered_foods_df['picture_uri'].isin(downloaded_imgs_uris)]
     filtered_foods_df['filename'] = filtered_foods_df['picture_uri'].apply(img_uri2filename)
-    filtered_foods_df = filtered_foods_df.reset_index()
+    filtered_foods_df = filtered_foods_df.reset_index(drop=True)
     filtered_foods_df.to_csv(DATASET_WITH_PATH)
 
 
