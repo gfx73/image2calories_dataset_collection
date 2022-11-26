@@ -5,6 +5,14 @@ logs/*
 resized_imgs/*
 retrieved_layouts/*
 retrieved_menus/*
+!downloaded_imgs/.gitkeep
+!errors/.gitkeep
+!generated_datasets/.gitkeep
+!logs/.gitkeep
+!resized_imgs/.gitkeep
+!retrieved_layouts/.gitkeep
+!retrieved_menus/.gitkeep
+
 __pycache__/
 src/__pycache__/
 venv/
