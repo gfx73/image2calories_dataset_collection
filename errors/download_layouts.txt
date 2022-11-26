@@ -1,0 +1,1 @@
+502 Server Error: Bad Gateway for url: https://eda.yandex.ru/eats/v1/layout-constructor/v1/layout
