@@ -2,6 +2,7 @@ downloaded_imgs/*
 errors/*
 generated_datasets/*
 logs/*
+resized_imgs/*
 retrieved_layouts/*
 retrieved_menus/*
 venv/
