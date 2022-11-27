@@ -3,7 +3,7 @@ All images are resized to 256x256.
 
 The dataframe is available in ```generated_datasets/dataset_with_paths.csv```.
 
-Images are available on Google Drive by the following link: https://drive.google.com/drive/folders/1-4BxkPAw1a_zw6rJCqj6Pb3zmT-FDDY6?usp=sharing
+Images are available on Google Drive by the following link: https://drive.google.com/file/d/12U-EKh2uhup__qcL1-8duvZQ7hjO1exa/view?usp=sharing
 
 Steps to reproduce the dataset:
 1) Clone this repository 
