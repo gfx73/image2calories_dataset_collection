@@ -12,6 +12,9 @@ def filter_foods():
 
     df['category_name'] = df['category_name'].str.lower()
     df = df[~df['category_name'].str.contains(r'напитки|чай|кофе|коктейли|смузи|соусы')]
+    df = df[df['weight_unit'] == 'g']
+    df = df.drop(index=df.sort_values(by=['calories_value'], ascending=True).head(500).index)
+    df = df.drop(index=df.sort_values(by=['calories_value'], ascending=False).head(100).index)
 
     df['picture_uri'] = df['picture_uri'].str.replace(r'{w}|{h}', '{}')
 
